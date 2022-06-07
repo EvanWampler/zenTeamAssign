@@ -18,9 +18,12 @@
 - .SVG??
 
 ### Evan
-- [ ] Create mixins page
+- [x] Create mixins page
+- [ ] Create 2nd mixins page
 - [ ] Create variables page
-- [ ] Map scss to css and compile
+- [ ] Create 2nd variables page
+- [ ] Create 2x rulesheets
+- [ ] Map scss to css with Sass and compile
 ### Alisha
 - [x] Create amazing moqups page
 - [ ] 
