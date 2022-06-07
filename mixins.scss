@@ -32,3 +32,8 @@
   border-width: $width;
   border:#473328 $decor;
 }
+// begin implementing generic rulesets
+body{
+    background-color: $darkBrown;
+    @include set-flex($direction:column, $wrap:wrap)
+  }

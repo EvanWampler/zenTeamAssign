@@ -1,0 +1,7 @@
+@use 'variables' as *;
+@use 'mixins' as m;
+
+.pagewrapper{
+    max-width: 80%;
+    background-color: $bodyColor;
+}
