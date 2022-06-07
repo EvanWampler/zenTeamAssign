@@ -25,8 +25,8 @@
 - [ ] Create 2x rulesheets
 - [ ] Map scss to css with Sass and compile
 ### Alisha
-- [x] Create amazing moqups page
+- [x] Create amazing moqups page (https://app.moqups.com/RFmAlQbvgDcymweUeTAOFePLDyNAJdN0/view/page/aa9df7b72 )
 - [ ] 
 ### Amber
-- [x] Create 2nd amazing moqups page
+- [x] Create 2nd amazing moqups page( https://app.moqups.com/fmlPK1HsIRUaZQBmPfMlZRnkCLRKpWSV/edit/page/a91938cd9 )
 - [ ] 
