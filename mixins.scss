@@ -34,6 +34,8 @@
 }
 // begin implementing generic rulesets
 body{
-    background-color: $darkBrown;
-    @include set-flex($direction:column, $wrap:wrap)
-  }
+  background-color: $darkBrown;
+  @include set-flex($direction:column, $wrap:wrap);
+  @include set-body-font();
+  color:$darkBrown;
+}

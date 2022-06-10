@@ -3,5 +3,14 @@
 
 .pagewrapper{
     max-width: 80%;
-    background-color: $bodyColor;
+    @include body-background;
+}
+.header{
+    @include border(2px,solid);
+    background-color: $sageGreen;
+    color:$darkBrown;
+}
+.summary{
+    @include border(2px, solid);
+    color:$darkBrown;
 }
