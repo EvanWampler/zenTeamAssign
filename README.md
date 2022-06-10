@@ -20,13 +20,16 @@
 ### Evan
 - [x] Create mixins page
 - [ ] Create 2nd mixins page
-- [ ] Create variables page
+- [x] Create variables page
 - [ ] Create 2nd variables page
 - [ ] Create 2x rulesheets
 - [ ] Map scss to css with Sass and compile
 ### Alisha
-- [x] Create amazing moqups page (https://app.moqups.com/RFmAlQbvgDcymweUeTAOFePLDyNAJdN0/view/page/aa9df7b72 )
-- [ ] 
+- [x] Create amazing moqups page (https://app.moqups.com/RFmAlQbvgDcymweUeTAOFePLDyNAJdN0/view/page/aa9df7b72)
+- [ ] Create SVG and animations for pawprints
+- [ ] Pretty up rulesets
+- [ ] Implement mixins and other rulesets for 1st page design
 ### Amber
-- [x] Create 2nd amazing moqups page( https://app.moqups.com/fmlPK1HsIRUaZQBmPfMlZRnkCLRKpWSV/edit/page/a91938cd9 )
-- [ ] 
+- [x] Create 2nd amazing moqups page( https://app.moqups.com/fmlPK1HsIRUaZQBmPfMlZRnkCLRKpWSV/edit/page/a91938cd9)
+- [ ] Pretty up rulesets
+- [ ] Implement mixins and other rulesets for 1st page design
