@@ -26,7 +26,7 @@
 - [ ] Map scss to css with Sass and compile
 ### Alisha
 - [x] Create amazing moqups page (https://app.moqups.com/RFmAlQbvgDcymweUeTAOFePLDyNAJdN0/view/page/aa9df7b72)
-- [ ] Create SVG and animations for pawprints
+- [x] Create SVG and animations for pawprints
 - [ ] Pretty up rulesets
 - [ ] Implement mixins and other rulesets for 1st page design
 ### Amber
