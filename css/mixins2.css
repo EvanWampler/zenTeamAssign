@@ -1,4 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;1,600&family=Quicksand:wght@400;600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;1,600&family=Quicksand:wght@400;600&display=swap");
+body {
+  background-color: #c3e0A8;
+  display: flex;
+  flex-flow: column wrap;
+  font-family: "Quicksand", sans-serif;
+  font-size: 18px;
+  color: #473328;
+}
 
-/*# sourceMappingURL=variables.css.map */
+/*# sourceMappingURL=mixins2.css.map */

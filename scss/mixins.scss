@@ -19,8 +19,8 @@
   display: flex;
   flex-flow: $direction $wrap;
 }
-@mixin body-background{
-  background-color: $bodyColor;
+@mixin body-color($color:$bodyColor){
+  background-color: $color;
 }
 @mixin colorVaried($color:$bodyAltCol,$size:22px){
   background-color: $color;
@@ -34,7 +34,6 @@
 }
 // begin implementing generic rulesets
 body{
-  background-color: $darkBrown;
   @include set-flex($direction:column, $wrap:wrap);
   @include set-body-font();
   color:$darkBrown;
