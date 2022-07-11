@@ -4,6 +4,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;1,600&family=Quicksand:wght@400;600&display=swap");
 body {
   background-color: #c3e0A8;
+<<<<<<< HEAD
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -15,3 +16,13 @@ body {
   font-size: 18px;
   color: #473328;
 }
+=======
+  display: flex;
+  flex-flow: column wrap;
+  font-family: "Quicksand", sans-serif;
+  font-size: 18px;
+  color: #473328;
+}
+
+/*# sourceMappingURL=style2.css.map */
+>>>>>>> 92c40e6069647aee0a253c5b7bbc66924d5c1f89

@@ -1,20 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;1,600&family=Quicksand:wght@400;600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;1,600&family=Quicksand:wght@400;600&display=swap");
 body {
-<<<<<<< HEAD
-  background-color: #473328;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: column wrap;
-          flex-flow: column wrap;
-  font-family: "Quicksand", sans-serif;
-  font-size: 18px;
-  color: #473328;
-}
-=======
   display: flex;
   flex-flow: column wrap;
   font-family: "Quicksand", sans-serif;
@@ -22,5 +8,27 @@ body {
   color: #473328;
 }
 
-/*# sourceMappingURL=mixins.css.map */
->>>>>>> 92c40e6069647aee0a253c5b7bbc66924d5c1f89
+.pagewrapper {
+  width: 80%;
+  font-family: "Quicksand", sans-serif;
+  font-size: 18px;
+  display: flex;
+  flex-flow: column wrap;
+}
+
+header {
+  border-radius: 30px;
+  border-width: 2px;
+  border: #473328 solid;
+  background-color: #c3e0A8;
+  color: #473328;
+}
+
+.summary {
+  border-radius: 30px;
+  border-width: 2px;
+  border: #473328 solid;
+  color: #473328;
+}
+
+/*# sourceMappingURL=rulesheet.css.map */

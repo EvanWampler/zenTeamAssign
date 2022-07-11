@@ -1,11 +1,12 @@
-@use 'variables' as *;
-@use 'mixins' as m;
+@use 'variables'as *;
+@use 'mixins' as *;
 
 .pagewrapper{
-    max-width: 80%;
-    @include body-background;
+    width: 80%;
+    @include set-body-font;
+    @include set-flex;
 }
-.header{
+header{
     @include border(2px,solid);
     background-color: $sageGreen;
     color:$darkBrown;

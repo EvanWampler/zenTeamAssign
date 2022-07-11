@@ -1,9 +1,1 @@
-{
-    "version": 3,
-    "mappings": "AACA,IAAI,CAAJ,WAAI;AACJ,IAAI,CAAJ,SAAI;AACJ,IAAI,CAAJ,QAAI",
-    "sources": [
-        "../style2.scss"
-    ],
-    "names": [],
-    "file": "style2.css"
-}
+{"version":3,"sourceRoot":"","sources":["../scss/var2.scss","../scss/variables.scss","../scss/mixins2.scss"],"names":[],"mappings":"AACQ;AACA;ACDA;AACA;ACqCR;EACE,kBD9BS;ECYT;EACA;EAfA,aDLS;ECMT,WDHS;ECqCT,ODlCU","file":"style2.css"}

@@ -1,9 +1,1 @@
-{
-    "version": 3,
-    "mappings": "",
-    "sources": [
-        "../rules2.scss"
-    ],
-    "names": [],
-    "file": "rules2.css"
-}
+{"version":3,"sourceRoot":"","sources":[],"names":[],"mappings":"","file":"rules2.css"}
