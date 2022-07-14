@@ -63,6 +63,9 @@ header {
   border-width: 2px;
   border: #473328 solid;
   background-color: #c3e0A8;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-animation: slide 2s 2;
           animation: slide 2s 2;
 }

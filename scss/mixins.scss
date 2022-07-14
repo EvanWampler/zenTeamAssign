@@ -71,6 +71,7 @@ header{
 .doghouse {
   @include border($width:2px,$decor:solid);
   background-color: $sageGreen;
+  align-items: center;
   animation: slide 2s 2;
   }
 
