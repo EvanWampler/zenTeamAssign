@@ -1,5 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;1,600&family=Quicksand:wght@400;600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;1,600&family=Quicksand:wght@400;600&display=swap");
+.page-wrapper {
+  background-image: url("../images/gravel.jpg");
+  border-radius: 30px;
+  width: 80%;
+  margin: 0 auto;
+}
+
 body {
   display: flex;
   flex-flow: column wrap;
@@ -86,6 +93,17 @@ header {
 }
 .paw {
   animation: wiggle 2s infinite;
+  justify-content: space-around;
+}
+
+.paw img {
+  background-color: #83d69b;
+  border-radius: 30px;
+  padding-bottom: 0px;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+  margin: 5px;
 }
 
 @keyframes wiggle {
