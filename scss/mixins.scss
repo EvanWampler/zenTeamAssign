@@ -32,6 +32,7 @@
   border-width: $width;
   border:#473328 $decor;
 }
+
 // begin implementing generic rulesets
 body{
   @include set-flex($direction:column, $wrap:wrap);
@@ -42,6 +43,11 @@ body{
 header{
   @include body-color($color:$bodyColor);
   @include border($width:2px,$decor:solid);
+}
+
+.summary{
+  @include border(2px, solid);
+  color:$darkBrown;
 }
 
 .preamble {
@@ -56,6 +62,8 @@ header{
 
 .participation {
   @include uppercase($color: $darkBrown);
+  padding: 2px;
+  margin: 2px;
 }
 
 .participation, .design-selection {
@@ -69,8 +77,7 @@ header{
 }
 
 .doghouse {
-  @include border($width:2px,$decor:solid);
-  background-color: $sageGreen;
+  /*background-image: url("gravel.jpg");*/
   align-items: center;
   animation: slide 2s 2;
   }

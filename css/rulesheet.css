@@ -20,6 +20,13 @@ header {
   border: #473328 solid;
 }
 
+.summary {
+  border-radius: 30px;
+  border-width: 2px;
+  border: #473328 solid;
+  color: #473328;
+}
+
 .preamble {
   background-color: #473328;
   color: #c3e0A8;
@@ -28,7 +35,7 @@ header {
   border: #473328 solid;
 }
 
-.explanation {
+.explanation, .requirements, .zen-resources {
   border-radius: 30px;
   border-width: 2px;
   border: #473328 solid;
@@ -36,6 +43,15 @@ header {
 }
 
 .participation {
+  font-weight: 300;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #473328;
+  padding: 2px;
+  margin: 2px;
+}
+
+.participation, .design-selection {
   border-radius: 30px;
   border-width: 2px;
   border: #473328 solid;
@@ -44,19 +60,109 @@ header {
   color: white;
 }
 
-.benefits {
+.benefits, .design-archives {
   border-radius: 30px;
   border-width: 2px;
   border: #473328 solid;
   background-color: #83d69b;
 }
 
-.design-selection, .design-archives, .zen-resources {
-  border-radius: 30px;
-  border-width: 2px;
-  border: #473328 solid;
+.doghouse {
+  background-image: url("gravel.jpg");
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-animation: slide 2s 2;
+          animation: slide 2s 2;
 }
 
+@-webkit-keyframes slide {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+@keyframes slide {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+.paw {
+  -webkit-animation: wiggle linear infinite;
+          animation: wiggle linear infinite;
+}
+
+@-webkit-keyframes wiggle {
+  0%, 7% {
+    -webkit-transform: rotateY(0);
+            transform: rotateY(0);
+  }
+  15% {
+    -webkit-transform: rotateY(-15deg);
+            transform: rotateY(-15deg);
+  }
+  20% {
+    -webkit-transform: rotateY(10deg);
+            transform: rotateY(10deg);
+  }
+  25% {
+    -webkit-transform: rotateY(-10deg);
+            transform: rotateY(-10deg);
+  }
+  30% {
+    -webkit-transform: rotateY(6deg);
+            transform: rotateY(6deg);
+  }
+  35% {
+    -webkit-transform: rotateY(-4deg);
+            transform: rotateY(-4deg);
+  }
+  40%, 100% {
+    -webkit-transform: rotateY(0);
+            transform: rotateY(0);
+  }
+}
+
+@keyframes wiggle {
+  0%, 7% {
+    -webkit-transform: rotateY(0);
+            transform: rotateY(0);
+  }
+  15% {
+    -webkit-transform: rotateY(-15deg);
+            transform: rotateY(-15deg);
+  }
+  20% {
+    -webkit-transform: rotateY(10deg);
+            transform: rotateY(10deg);
+  }
+  25% {
+    -webkit-transform: rotateY(-10deg);
+            transform: rotateY(-10deg);
+  }
+  30% {
+    -webkit-transform: rotateY(6deg);
+            transform: rotateY(6deg);
+  }
+  35% {
+    -webkit-transform: rotateY(-4deg);
+            transform: rotateY(-4deg);
+  }
+  40%, 100% {
+    -webkit-transform: rotateY(0);
+            transform: rotateY(0);
+  }
+}
 .pagewrapper {
   width: 80%;
   font-family: "Quicksand", sans-serif;
@@ -78,9 +184,15 @@ header {
   color: #473328;
 }
 
-.summary {
-  border-radius: 30px;
-  border-width: 2px;
-  border: #473328 solid;
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  font-family: "Quicksand", sans-serif;
+  font-size: 18px;
   color: #473328;
 }

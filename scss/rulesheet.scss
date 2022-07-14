@@ -11,7 +11,11 @@ header{
     background-color: $sageGreen;
     color:$darkBrown;
 }
-.summary{
-    @include border(2px, solid);
+
+body{
+    @include set-flex($direction:column, $wrap:wrap);
+    @include set-body-font();
     color:$darkBrown;
-}
+  }
+
+  
