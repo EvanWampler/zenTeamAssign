@@ -46,7 +46,7 @@ header{
 
 .preamble {
   @include coloredBackground;
-  @include border($color:$bodyAltCol,$size:22px);
+  @include border($width:2px,$decor:solid);
 }
 
 .explanation {
@@ -55,12 +55,15 @@ header{
 }
 
 .participation {
-  @include border($color:$bodyAltCol,$size:22px);
+  @include border($width:2px,$decor:solid);
   @include colorVaried($color:$bodyAltCol,$size:22px);
 }
 
 .benefits {
-  @include border($color:$bodyAltCol,$size:22px);
+  @include border($width:2px,$decor:solid);
   @include body-color($color:$bodyColor);
 }
 
+.design-selection, .design-archives, .zen-resources {
+  @include border($width:2px,$decor:solid);
+}
