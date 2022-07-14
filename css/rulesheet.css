@@ -129,31 +129,5 @@ header {
     transform: rotateY(0);
   }
 }
-.pagewrapper {
-  width: 80%;
-  font-family: "Quicksand", sans-serif;
-  font-size: 18px;
-  display: flex;
-  flex-flow: column wrap;
-  background-color: #AB9260;
-  width: 80%;
-  background-image: url("../images/gravel.jpg");
-}
-
-header {
-  border-radius: 30px;
-  border-width: 2px;
-  border: #473328 solid;
-  background-color: #c3e0A8;
-  color: #473328;
-}
-
-body {
-  display: flex;
-  flex-flow: column wrap;
-  font-family: "Quicksand", sans-serif;
-  font-size: 18px;
-  color: #473328;
-}
 
 /*# sourceMappingURL=rulesheet.css.map */
