@@ -1,8 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;1,600&family=Quicksand:wght@400;600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;1,600&family=Quicksand:wght@400;600&display=swap");
 body {
-<<<<<<< HEAD
-  background-color: #473328;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -14,13 +12,27 @@ body {
   font-size: 18px;
   color: #473328;
 }
-=======
-  display: flex;
-  flex-flow: column wrap;
-  font-family: "Quicksand", sans-serif;
-  font-size: 18px;
-  color: #473328;
+
+header {
+  background-color: #83d69b;
+  border-radius: 30px;
+  border-width: 2px;
+  border: #473328 solid;
 }
 
-/*# sourceMappingURL=mixins.css.map */
->>>>>>> 92c40e6069647aee0a253c5b7bbc66924d5c1f89
+.preamble {
+  background-color: #473328;
+  color: #c3e0A8;
+}
+
+.explanation {
+  border-radius: 30px;
+  border-width: 2px;
+  border: #473328 solid;
+}
+
+.participation {
+  background-color: #AB9260;
+  font-size: 22px;
+  color: white;
+}

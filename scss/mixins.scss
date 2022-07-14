@@ -38,3 +38,29 @@ body{
   @include set-body-font();
   color:$darkBrown;
 }
+
+header{
+  @include body-color($color:$bodyColor);
+  @include border($width:2px,$decor:solid);
+}
+
+.preamble {
+  @include coloredBackground;
+  @include border($color:$bodyAltCol,$size:22px);
+}
+
+.explanation {
+  @include border($width:2px,$decor:solid);
+  background-color: $sageGreen;
+}
+
+.participation {
+  @include border($color:$bodyAltCol,$size:22px);
+  @include colorVaried($color:$bodyAltCol,$size:22px);
+}
+
+.benefits {
+  @include border($color:$bodyAltCol,$size:22px);
+  @include body-color($color:$bodyColor);
+}
+
