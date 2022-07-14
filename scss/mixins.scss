@@ -42,7 +42,6 @@ body{
   @include set-flex($direction:column, $wrap:wrap);
   @include set-body-font();
   color:$darkBrown;
-  background-image: url("images/gravel.jpg");
 }
 
 header{
@@ -85,8 +84,6 @@ header{
   @include body-color($color:$bodyColor);
   @include section-padding($padding);
 }
-
- 
 
 .doghouse {
   display: block;
