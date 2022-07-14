@@ -47,6 +47,7 @@ header{
 .preamble {
   @include coloredBackground;
   @include border($width:2px,$decor:solid);
+  @include set-flex($direction: column, $wrap: wrap);
 }
 
 .explanation, .requirements, .zen-resources  {
