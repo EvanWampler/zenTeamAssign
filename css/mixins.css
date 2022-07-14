@@ -24,6 +24,7 @@ header {
   border-radius: 30px;
   border-width: 2px;
   border: #473328 solid;
+  background-color: #c3e0A8;
   color: #473328;
 }
 
@@ -47,8 +48,6 @@ header {
   letter-spacing: 2px;
   text-transform: uppercase;
   color: #473328;
-  padding: 2px;
-  margin: 2px;
 }
 
 .participation, .design-selection {
@@ -98,8 +97,8 @@ header {
   }
 }
 .paw {
-  -webkit-animation: wiggle linear infinite;
-          animation: wiggle linear infinite;
+  -webkit-animation: wiggle 2s linear infinite;
+          animation: wiggle 2s linear infinite;
 }
 
 @-webkit-keyframes wiggle {

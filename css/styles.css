@@ -20,6 +20,13 @@ header {
   border: #473328 solid;
 }
 
+.summary {
+  border-radius: 30px;
+  border-width: 2px;
+  border: #473328 solid;
+  color: #473328;
+}
+
 .preamble {
   background-color: #473328;
   color: #c3e0A8;
@@ -40,6 +47,8 @@ header {
   letter-spacing: 2px;
   text-transform: uppercase;
   color: #473328;
+  padding: 2px;
+  margin: 2px;
 }
 
 .participation, .design-selection {
@@ -59,10 +68,7 @@ header {
 }
 
 .doghouse {
-  border-radius: 30px;
-  border-width: 2px;
-  border: #473328 solid;
-  background-color: #c3e0A8;
+  /*background-image: url("gravel.jpg");*/
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -92,8 +98,9 @@ header {
   }
 }
 .paw {
-  -webkit-animation: wiggle linear infinite;
-          animation: wiggle linear infinite;
+  position: absolute;
+  -webkit-animation: wiggle 2s linear infinite;
+          animation: wiggle 2s linear infinite;
 }
 
 @-webkit-keyframes wiggle {
@@ -175,13 +182,6 @@ header {
   border-width: 2px;
   border: #473328 solid;
   background-color: #c3e0A8;
-  color: #473328;
-}
-
-.summary {
-  border-radius: 30px;
-  border-width: 2px;
-  border: #473328 solid;
   color: #473328;
 }
 

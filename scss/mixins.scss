@@ -33,6 +33,10 @@
   border:#473328 $decor;
 }
 
+@mixin section-padding($padding){
+  padding: $padding;
+}
+
 // begin implementing generic rulesets
 body{
   @include set-flex($direction:column, $wrap:wrap);
@@ -43,38 +47,45 @@ body{
 header{
   @include body-color($color:$bodyColor);
   @include border($width:2px,$decor:solid);
+  @include section-padding($padding);
 }
 
 .summary{
   @include border(2px, solid);
+  background-color: $sageGreen;
   color:$darkBrown;
+  @include section-padding($padding);
 }
 
 .preamble {
   @include coloredBackground;
   @include border($width:2px,$decor:solid);
+  @include section-padding($padding);
 }
 
 .explanation, .requirements, .zen-resources  {
   @include border($width:2px,$decor:solid);
   background-color: $sageGreen;
+  @include section-padding($padding);
 }
 
 .participation {
   @include uppercase($color: $darkBrown);
-  padding: 2px;
-  margin: 2px;
 }
 
 .participation, .design-selection {
   @include border($width:2px,$decor:solid);
   @include colorVaried($color:$bodyAltCol,$size:22px);
+  @include section-padding($padding);
 }
 
 .benefits, .design-archives {
   @include border($width:2px,$decor:solid);
   @include body-color($color:$bodyColor);
+  @include section-padding($padding);
 }
+
+ 
 
 .doghouse {
   /*background-image: url("gravel.jpg");*/
@@ -95,15 +106,15 @@ header{
 }
 
 .paw {
-  animation: wiggle linear infinite;
+  animation: wiggle 2s linear infinite;
 }
 
-@keyframes wiggle {
-  0%, 7% { transform: rotateY(0);}
-  15% { transform: rotateY(-15deg);}
-  20% { transform: rotateY(10deg);}
-  25% { transform: rotateY(-10deg);}
-  30% { transform: rotateY(6deg);}
-  35% { transform: rotateY(-4deg);}
-  40%, 100% {  transform: rotateY(0);}
+  @keyframes wiggle {
+    0%, 7% { transform: rotateY(0);}
+    15% { transform: rotateY(-15deg);}
+    20% { transform: rotateY(10deg);}
+    25% { transform: rotateY(-10deg);}
+    30% { transform: rotateY(6deg);}
+    35% { transform: rotateY(-4deg);}
+    40%, 100% {  transform: rotateY(0);}
 }
