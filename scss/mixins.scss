@@ -93,9 +93,11 @@ header{
 
 .doghouse {
   display: block;
-  margin-left: auto;
   margin-right: auto;
   animation: slide 2s 1;
+  img{
+    margin-left: 50%;
+  };
   }
 
   @keyframes slide {
