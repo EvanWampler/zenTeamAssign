@@ -5,6 +5,8 @@
     width: 80%;
     @include set-body-font;
     @include set-flex;
+    background-color: #AB9260;
+    background-image: url("/images/gravel.jpg");
 }
 header{
     @include border(2px,solid);
@@ -16,4 +18,5 @@ body{
     @include set-flex($direction:column, $wrap:wrap);
     @include set-body-font();
     color:$darkBrown;
+    background-image: url("images/gravel.jpg");
   }
