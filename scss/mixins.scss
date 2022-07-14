@@ -49,21 +49,39 @@ header{
   @include border($width:2px,$decor:solid);
 }
 
-.explanation {
+.explanation, .requirements, .zen-resources  {
   @include border($width:2px,$decor:solid);
   background-color: $sageGreen;
 }
 
 .participation {
+  @include uppercase($color: $darkBrown);
+}
+
+.participation, .design-selection {
   @include border($width:2px,$decor:solid);
   @include colorVaried($color:$bodyAltCol,$size:22px);
 }
 
-.benefits {
+.benefits, .design-archives {
   @include border($width:2px,$decor:solid);
   @include body-color($color:$bodyColor);
 }
 
-.design-selection, .design-archives, .zen-resources {
+.doghouse {
   @include border($width:2px,$decor:solid);
+  background-color: $sageGreen;
+  animation: slide 2s 2;
+  }
+
+  @keyframes slide {
+    from {
+        margin-left: 100%;
+        width: 300%;
+      }
+    
+      to {
+        margin-left: 0%;
+        width: 100%;
+      }
 }
