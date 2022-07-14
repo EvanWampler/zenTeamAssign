@@ -38,6 +38,12 @@
 }
 
 // begin implementing generic rulesets
+.page-wrapper{
+  background-image: url("../images/gravel.jpg");
+  border-radius: 30px;
+  width:80%;
+  margin:0 auto;
+}
 body{
   @include set-flex($direction:column, $wrap:wrap);
   @include set-body-font();
@@ -107,6 +113,16 @@ header{
 .paw {
   width: 100%;
   animation: wiggle 2s infinite;
+  justify-content: space-around;
+}
+.paw img{
+  background-color:$bodyColor;
+  border-radius: 30px;
+  padding-bottom:0px;
+  padding-top:10px;
+  padding-right:10px;
+  padding-left:10px;
+  margin:5px;
 }
 
   @keyframes wiggle {

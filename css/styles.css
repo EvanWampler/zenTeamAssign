@@ -1,13 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;1,600&family=Quicksand:wght@400;600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;1,600&family=Quicksand:wght@400;600&display=swap");
+.page-wrapper {
+  background-image: url("../images/gravel.jpg");
+  border-radius: 30px;
+  width: 80%;
+  margin: 0 auto;
+}
+
 body {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: column wrap;
-          flex-flow: column wrap;
+  flex-flow: column wrap;
   font-family: "Quicksand", sans-serif;
   font-size: 18px;
   color: #473328;
@@ -73,23 +75,10 @@ header {
 }
 
 .doghouse {
-  /*background-image: url("gravel.jpg");*/
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-animation: slide 2s 2;
-          animation: slide 2s 2;
-}
-
-@-webkit-keyframes slide {
-  from {
-    margin-left: 100%;
-    width: 300%;
-  }
-  to {
-    margin-left: 0%;
-    width: 100%;
-  }
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  animation: slide 2s 1;
 }
 
 @keyframes slide {
@@ -103,101 +92,42 @@ header {
   }
 }
 .paw {
-  -webkit-animation: wiggle 2s infinite;
-          animation: wiggle 2s infinite;
+  animation: wiggle 2s infinite;
+  justify-content: space-around;
 }
 
-@-webkit-keyframes wiggle {
-  0%, 7% {
-    -webkit-transform: rotateY(0);
-            transform: rotateY(0);
-  }
-  15% {
-    -webkit-transform: rotateY(-15deg);
-            transform: rotateY(-15deg);
-  }
-  20% {
-    -webkit-transform: rotateY(10deg);
-            transform: rotateY(10deg);
-  }
-  25% {
-    -webkit-transform: rotateY(-10deg);
-            transform: rotateY(-10deg);
-  }
-  30% {
-    -webkit-transform: rotateY(6deg);
-            transform: rotateY(6deg);
-  }
-  35% {
-    -webkit-transform: rotateY(-4deg);
-            transform: rotateY(-4deg);
-  }
-  40%, 100% {
-    -webkit-transform: rotateY(0);
-            transform: rotateY(0);
-  }
+.paw img {
+  background-color: #83d69b;
+  border-radius: 30px;
+  padding-bottom: 0px;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+  margin: 5px;
 }
 
 @keyframes wiggle {
   0%, 7% {
-    -webkit-transform: rotateY(0);
-            transform: rotateY(0);
+    transform: rotateY(0);
   }
   15% {
-    -webkit-transform: rotateY(-15deg);
-            transform: rotateY(-15deg);
+    transform: rotateY(-15deg);
   }
   20% {
-    -webkit-transform: rotateY(10deg);
-            transform: rotateY(10deg);
+    transform: rotateY(10deg);
   }
   25% {
-    -webkit-transform: rotateY(-10deg);
-            transform: rotateY(-10deg);
+    transform: rotateY(-10deg);
   }
   30% {
-    -webkit-transform: rotateY(6deg);
-            transform: rotateY(6deg);
+    transform: rotateY(6deg);
   }
   35% {
-    -webkit-transform: rotateY(-4deg);
-            transform: rotateY(-4deg);
+    transform: rotateY(-4deg);
   }
   40%, 100% {
-    -webkit-transform: rotateY(0);
-            transform: rotateY(0);
+    transform: rotateY(0);
   }
 }
-.pagewrapper {
-  width: 80%;
-  font-family: "Quicksand", sans-serif;
-  font-size: 18px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: column wrap;
-          flex-flow: column wrap;
-}
 
-header {
-  border-radius: 30px;
-  border-width: 2px;
-  border: #473328 solid;
-  background-color: #c3e0A8;
-  color: #473328;
-}
-
-body {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: column wrap;
-          flex-flow: column wrap;
-  font-family: "Quicksand", sans-serif;
-  font-size: 18px;
-  color: #473328;
-}
+/*# sourceMappingURL=styles.css.map */
