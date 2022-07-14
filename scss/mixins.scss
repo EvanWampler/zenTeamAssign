@@ -42,6 +42,7 @@ body{
   @include set-flex($direction:column, $wrap:wrap);
   @include set-body-font();
   color:$darkBrown;
+  background-image: url("images/gravel.jpg");
 }
 
 header{
@@ -88,9 +89,10 @@ header{
  
 
 .doghouse {
-  /*background-image: url("gravel.jpg");*/
-  align-items: center;
-  animation: slide 2s 2;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  animation: slide 2s 1;
   }
 
   @keyframes slide {
@@ -106,7 +108,7 @@ header{
 }
 
 .paw {
-  animation: wiggle 2s linear infinite;
+  animation: wiggle 2s infinite;
 }
 
   @keyframes wiggle {
