@@ -23,16 +23,36 @@ header {
 .preamble {
   background-color: #473328;
   color: #c3e0A8;
+  border-radius: 30px;
+  border-width: 2px;
+  border: #473328 solid;
 }
 
 .explanation {
   border-radius: 30px;
   border-width: 2px;
   border: #473328 solid;
+  background-color: #c3e0A8;
 }
 
 .participation {
+  border-radius: 30px;
+  border-width: 2px;
+  border: #473328 solid;
   background-color: #AB9260;
   font-size: 22px;
   color: white;
+}
+
+.benefits {
+  border-radius: 30px;
+  border-width: 2px;
+  border: #473328 solid;
+  background-color: #83d69b;
+}
+
+.design-selection, .design-archives, .zen-resources {
+  border-radius: 30px;
+  border-width: 2px;
+  border: #473328 solid;
 }
