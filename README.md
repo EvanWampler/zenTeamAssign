@@ -28,8 +28,8 @@
 - [x] Create amazing moqups page (https://app.moqups.com/RFmAlQbvgDcymweUeTAOFePLDyNAJdN0/view/page/aa9df7b72)
 - [x] Create SVG and animations for pawprints
 - [ ] Pretty up rulesets
-- [ ] Implement mixins and other rulesets for 1st page design
+- [ ] Implement mixins and other rulesets for mobile page design
 ### Amber
 - [x] Create 2nd amazing moqups page( https://app.moqups.com/fmlPK1HsIRUaZQBmPfMlZRnkCLRKpWSV/edit/page/a91938cd9)
 - [ ] Pretty up rulesets
-- [ ] Implement mixins and other rulesets for 1st page design
+- [ ] Implement mixins and other rulesets for full screen page design
