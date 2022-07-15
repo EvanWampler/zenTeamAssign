@@ -186,6 +186,7 @@ footer{
   }
   .page-wrapper{
     max-width: 80%;
+    margin:0 auto;
   }
   .doghouse{
     width:50%;
@@ -206,11 +207,14 @@ footer{
       padding:25px;
       margin:15 auto;
       // margin-left:2.5%;
-      height:200px;
+      height:400px;
       width:42.5%;
       display:inline-block;
       overflow: hidden;
     };
+    p{
+      height:80px;
+    }
   }
     #zen-supporting{
       display:flex;
@@ -221,13 +225,40 @@ footer{
         width:40%;
         overflow: hidden;
         margin-left:3%;
+        height:400px;
+      };
+      p{
+        height:200px;
+        margin-top:20px;
       };
       .explanation{
         margin-left:2.5%;
       }
       footer{
-        background-image: url();
+        padding-top:5%;
+        display:flex;
+        flex-direction: row;
+        background-image: url("../svgs/paw-prints2\ \(1\).svg");
         width:60%;
+        height:120px;
+        background-size: 100px 100px;
+
+        padding-bottom:5px;
+        background-color: $bodyFont;
+        a{
+          font-size: 18px;
+          text-decoration: none;
+          margin-left:2px;
+          padding:12px 40px;
+          display:inline-block;
+          text-align: center;
+          height: 30px;
+          background-color: $darkBrown;
+          width:20%;
+          margin-top:15px;
+          color:$sageGreen;
+          @include border(solid, 2px )
+        }
       }
     }
   
