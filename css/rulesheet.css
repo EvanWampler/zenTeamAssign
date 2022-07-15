@@ -94,7 +94,7 @@ header {
 .doghouse {
   width: 80%;
   display: block;
-  margin-left: auto;
+  margin-left: 25%;
   margin-right: auto;
   -webkit-animation: slide 3s 1;
           animation: slide 3s 1;
