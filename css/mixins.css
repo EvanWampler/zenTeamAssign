@@ -3,18 +3,25 @@
 .page-wrapper {
   background-image: url("../images/gravel.jpg");
   border-radius: 30px;
-  width: 80%;
+  width: 85%;
   margin: 0 auto;
+}
+.page-wrapper div, .page-wrapper section {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+.page-wrapper h1 {
+  font-size: 2em;
+}
+.page-wrapper h1, .page-wrapper h2 {
+  font-family: "Lora", serif;
+  text-align: center;
 }
 
 body {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: column wrap;
-          flex-flow: column wrap;
+  flex-flow: column wrap;
   font-family: "Quicksand", sans-serif;
   font-size: 18px;
   color: #473328;
@@ -80,24 +87,14 @@ header {
 }
 
 .doghouse {
+  width: 80%;
   display: block;
+  margin-left: auto;
   margin-right: auto;
-  -webkit-animation: slide 2s 1;
-          animation: slide 2s 1;
+  animation: slide 2s 1;
 }
 .doghouse img {
-  margin-left: 50%;
-}
-
-@-webkit-keyframes slide {
-  from {
-    margin-left: 100%;
-    width: 300%;
-  }
-  to {
-    margin-left: 0%;
-    width: 100%;
-  }
+  margin: 0 auto;
 }
 
 @keyframes slide {
@@ -112,10 +109,8 @@ header {
 }
 .paw {
   width: 100%;
-  -webkit-animation: wiggle 2s infinite;
-          animation: wiggle 2s infinite;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  animation: wiggle 2s infinite;
+  justify-content: space-around;
 }
 
 .paw img {
@@ -128,64 +123,55 @@ header {
   margin: 5px;
 }
 
-@-webkit-keyframes wiggle {
-  0%, 7% {
-    -webkit-transform: rotateY(0);
-            transform: rotateY(0);
-  }
-  15% {
-    -webkit-transform: rotateY(-15deg);
-            transform: rotateY(-15deg);
-  }
-  20% {
-    -webkit-transform: rotateY(10deg);
-            transform: rotateY(10deg);
-  }
-  25% {
-    -webkit-transform: rotateY(-10deg);
-            transform: rotateY(-10deg);
-  }
-  30% {
-    -webkit-transform: rotateY(6deg);
-            transform: rotateY(6deg);
-  }
-  35% {
-    -webkit-transform: rotateY(-4deg);
-            transform: rotateY(-4deg);
-  }
-  40%, 100% {
-    -webkit-transform: rotateY(0);
-            transform: rotateY(0);
-  }
-}
-
 @keyframes wiggle {
   0%, 7% {
-    -webkit-transform: rotateY(0);
-            transform: rotateY(0);
+    transform: rotateY(0);
   }
   15% {
-    -webkit-transform: rotateY(-15deg);
-            transform: rotateY(-15deg);
+    transform: rotateY(-15deg);
   }
   20% {
-    -webkit-transform: rotateY(10deg);
-            transform: rotateY(10deg);
+    transform: rotateY(10deg);
   }
   25% {
-    -webkit-transform: rotateY(-10deg);
-            transform: rotateY(-10deg);
+    transform: rotateY(-10deg);
   }
   30% {
-    -webkit-transform: rotateY(6deg);
-            transform: rotateY(6deg);
+    transform: rotateY(6deg);
   }
   35% {
-    -webkit-transform: rotateY(-4deg);
-            transform: rotateY(-4deg);
+    transform: rotateY(-4deg);
   }
   40%, 100% {
-    -webkit-transform: rotateY(0);
-            transform: rotateY(0);
+    transform: rotateY(0);
   }
 }
+footer {
+  border-radius: 30px;
+  border-width: 2px;
+  border: #473328 solid;
+  background-color: #c3e0A8;
+  padding-top: 44%;
+  padding-bottom: -10%;
+  font-size: 14px;
+  text-align: center;
+  display: block;
+  background-image: url("../svgs/LilPaw.svg");
+  background-repeat: repeat;
+  height: 160px;
+  margin: 0 auto;
+  background-size: 400px 450px;
+}
+footer li {
+  flex-direction: column;
+}
+footer a {
+  margin-left: 20px;
+  display: block;
+  color: #c3e0A8;
+}
+footer a:hover {
+  color: #AB9260;
+}
+
+/*# sourceMappingURL=mixins.css.map */
