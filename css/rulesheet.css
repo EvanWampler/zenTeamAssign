@@ -91,7 +91,7 @@ header {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  animation: slide 4s 1;
+  animation: slide 3s 1;
 }
 .doghouse img {
   margin: 0 auto;
@@ -160,6 +160,7 @@ footer {
   background-repeat: repeat;
   height: 160px;
   margin: 0 auto;
+  margin-top: 10px;
   background-size: 400px 450px;
 }
 footer li {
@@ -172,6 +173,59 @@ footer a {
 }
 footer a:hover {
   color: #AB9260;
+}
+
+@media only screen and (min-width: 950px) {
+  body {
+    background-color: yellow;
+  }
+
+  .page-wrapper {
+    max-width: 80%;
+  }
+
+  .doghouse {
+    width: 50%;
+    margin: 0 auto;
+  }
+  .doghouse img {
+    margin-left: 33%;
+  }
+
+  .intro header {
+    display: block;
+  }
+  .intro div {
+    display: inline-block;
+    background-image: url(shorturl.at/bcHJY);
+  }
+  .intro div:nth-child(n+1) {
+    padding: 25px;
+    margin: 15 auto;
+    height: 200px;
+    width: 42.5%;
+    display: inline-block;
+    overflow: hidden;
+  }
+
+  #zen-supporting {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 95%;
+  }
+  #zen-supporting div {
+    width: 40%;
+    overflow: hidden;
+    margin-left: 3%;
+  }
+  #zen-supporting .explanation {
+    margin-left: 2.5%;
+  }
+  #zen-supporting footer {
+    background-image: url();
+    width: 60%;
+  }
 }
 
 /*# sourceMappingURL=rulesheet.css.map */
