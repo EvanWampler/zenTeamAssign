@@ -94,12 +94,15 @@ header {
 .doghouse {
   width: 80%;
   display: block;
-  margin-left: 25%;
+  margin-left: auto;
   margin-right: auto;
   -webkit-animation: slide 3s 1;
           animation: slide 3s 1;
 }
 .doghouse img {
+  border-radius: 30px;
+  border-width: 2px;
+  border: #473328 solid;
   margin: 0 auto;
 }
 
@@ -214,7 +217,7 @@ footer {
   text-align: center;
   display: block;
   background-image: url("../svgs/LilPaw.svg");
-  background-repeat: repeat;
+  background-repeat: no-repeat;
   height: 160px;
   margin: 0 auto;
   margin-top: 10px;
@@ -303,7 +306,6 @@ footer a:hover {
         -ms-flex-direction: row;
             flex-direction: row;
     background-image: url("../svgs/paw-prints2 (1).svg");
-    background-repeat: no-repeat;
     width: 60%;
     height: 120px;
     background-size: 100px 100px;
