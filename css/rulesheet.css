@@ -20,13 +20,8 @@
 }
 
 body {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: column wrap;
-          flex-flow: column wrap;
+  flex-flow: column wrap;
   font-family: "Quicksand", sans-serif;
   font-size: 18px;
   color: #473328;
@@ -96,25 +91,13 @@ header {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  -webkit-animation: slide 3s 1;
-          animation: slide 3s 1;
+  animation: slide 3s 1;
 }
 .doghouse img {
   border-radius: 30px;
   border-width: 2px;
   border: #473328 solid;
   margin: 0 auto;
-}
-
-@-webkit-keyframes slide {
-  from {
-    margin-left: 100%;
-    width: 300%;
-  }
-  to {
-    margin-left: 0%;
-    width: 100%;
-  }
 }
 
 @keyframes slide {
@@ -129,10 +112,8 @@ header {
 }
 .paw {
   width: 100%;
-  -webkit-animation: wiggle 2s infinite;
-          animation: wiggle 2s infinite;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  animation: wiggle 2s infinite;
+  justify-content: space-around;
 }
 
 .paw img {
@@ -145,65 +126,27 @@ header {
   margin: 5px;
 }
 
-@-webkit-keyframes wiggle {
-  0%, 7% {
-    -webkit-transform: rotateY(0);
-            transform: rotateY(0);
-  }
-  15% {
-    -webkit-transform: rotateY(-15deg);
-            transform: rotateY(-15deg);
-  }
-  20% {
-    -webkit-transform: rotateY(10deg);
-            transform: rotateY(10deg);
-  }
-  25% {
-    -webkit-transform: rotateY(-10deg);
-            transform: rotateY(-10deg);
-  }
-  30% {
-    -webkit-transform: rotateY(6deg);
-            transform: rotateY(6deg);
-  }
-  35% {
-    -webkit-transform: rotateY(-4deg);
-            transform: rotateY(-4deg);
-  }
-  40%, 100% {
-    -webkit-transform: rotateY(0);
-            transform: rotateY(0);
-  }
-}
-
 @keyframes wiggle {
   0%, 7% {
-    -webkit-transform: rotateY(0);
-            transform: rotateY(0);
+    transform: rotateY(0);
   }
   15% {
-    -webkit-transform: rotateY(-15deg);
-            transform: rotateY(-15deg);
+    transform: rotateY(-15deg);
   }
   20% {
-    -webkit-transform: rotateY(10deg);
-            transform: rotateY(10deg);
+    transform: rotateY(10deg);
   }
   25% {
-    -webkit-transform: rotateY(-10deg);
-            transform: rotateY(-10deg);
+    transform: rotateY(-10deg);
   }
   30% {
-    -webkit-transform: rotateY(6deg);
-            transform: rotateY(6deg);
+    transform: rotateY(6deg);
   }
   35% {
-    -webkit-transform: rotateY(-4deg);
-            transform: rotateY(-4deg);
+    transform: rotateY(-4deg);
   }
   40%, 100% {
-    -webkit-transform: rotateY(0);
-            transform: rotateY(0);
+    transform: rotateY(0);
   }
 }
 footer {
@@ -224,10 +167,7 @@ footer {
   background-size: 400px 450px;
 }
 footer li {
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
 }
 footer a {
   margin-left: 20px;
@@ -240,12 +180,14 @@ footer a:hover {
 
 @media only screen and (min-width: 950px) {
   body {
-    background-color: yellow;
+    background-color: #c3e0A8;
   }
+
   .page-wrapper {
     max-width: 80%;
     margin: 0 auto;
   }
+
   .doghouse {
     width: 50%;
     margin: 0 auto;
@@ -253,6 +195,7 @@ footer a:hover {
   .doghouse img {
     margin-left: 33%;
   }
+
   .intro header {
     display: block;
   }
@@ -271,16 +214,11 @@ footer a:hover {
   .intro p {
     height: 80px;
   }
+
   #zen-supporting {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-direction: row;
+    flex-wrap: wrap;
     width: 95%;
   }
   #zen-supporting div {
@@ -298,13 +236,8 @@ footer a:hover {
   }
   #zen-supporting footer {
     padding-top: 5%;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+    flex-direction: row;
     background-image: url("../svgs/paw-prints2 (1).svg");
     width: 60%;
     height: 120px;
@@ -329,3 +262,5 @@ footer a:hover {
     border: #473328 2px;
   }
 }
+
+/*# sourceMappingURL=rulesheet.css.map */
