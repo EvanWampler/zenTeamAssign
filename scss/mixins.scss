@@ -32,11 +32,9 @@
   border-width: $width;
   border:#473328 $decor;
 }
-
 @mixin section-padding($padding){
   padding: $padding;
 }
-
 // begin implementing generic rulesets
 .page-wrapper{
   background-image: url("../images/gravel.jpg");
@@ -214,6 +212,10 @@ footer{
       display:inline-block;
       overflow: hidden;
     };
+    .preamble{
+      margin-left:45px;
+      border-color: $sageGreen;
+    }
     p{
       height:80px;
     }

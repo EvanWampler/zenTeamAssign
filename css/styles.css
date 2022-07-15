@@ -201,19 +201,19 @@ footer a:hover {
   }
   .intro div {
     display: inline-block;
-    background-image: ;
-    animation-duration: 3s;
-    animation-name: doghouse;
-    animation-iteration-count: infinite;
+    background-image: url(shorturl.at/bcHJY);
   }
-
   .intro div:nth-child(n+1) {
-    padding: 20px;
+    padding: 25px;
     margin: 15 auto;
     height: 400px;
     width: 42.5%;
     display: inline-block;
     overflow: hidden;
+  }
+  .intro .preamble {
+    margin-left: 45px;
+    border-color: #c3e0A8;
   }
   .intro p {
     height: 80px;
@@ -243,12 +243,7 @@ footer a:hover {
     display: flex;
     flex-direction: row;
     background-image: url("../svgs/paw-prints2 (1).svg");
-<<<<<<< HEAD
-    background-repeat: repeat;
-    width: 90%;
-=======
     width: 60%;
->>>>>>> 9939da8cf441eff94596d9859770c0e68cc53335
     height: 120px;
     background-size: 100px 100px;
     padding-bottom: 5px;
