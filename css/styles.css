@@ -91,7 +91,7 @@ header {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  animation: slide 2s 1;
+  animation: slide 4s 1;
 }
 .doghouse img {
   margin: 0 auto;
