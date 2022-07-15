@@ -3,7 +3,7 @@
 .page-wrapper {
   background-image: url("../images/gravel.jpg");
   border-radius: 30px;
-  width: 85%;
+  width: fit-content;
   margin: 0 auto;
 }
 .page-wrapper div, .page-wrapper section {
@@ -32,7 +32,8 @@ header {
   border-radius: 30px;
   border-width: 2px;
   border: #473328 solid;
-  padding: 20px;
+  padding: 40px;
+  margin: auto;
 }
 
 .summary {
@@ -41,7 +42,7 @@ header {
   border: #473328 solid;
   background-color: #c3e0A8;
   color: #473328;
-  padding: 20px;
+  margin: ;
 }
 
 .preamble {
@@ -50,7 +51,7 @@ header {
   border-radius: 30px;
   border-width: 2px;
   border: #473328 solid;
-  padding: 20px;
+  margin:;
 }
 
 .explanation, .requirements, .zen-resources {
@@ -62,6 +63,11 @@ header {
 }
 
 .participation {
+  color: #473328;
+  overflow: hidden;
+}
+
+h3 {
   font-weight: 300;
   letter-spacing: 2px;
   text-transform: uppercase;
@@ -176,9 +182,6 @@ footer a:hover {
 }
 
 @media only screen and (min-width: 950px) {
-  body {
-    background-color: yellow;
-  }
 
   .page-wrapper {
     max-width: 80%;
