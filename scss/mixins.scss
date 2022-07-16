@@ -86,7 +86,9 @@ header{
 }
 
 .participation {
-  @include uppercase($color: $darkBrown);
+  h3{
+    @include uppercase($color: $darkBrown);
+  }
 }
 
 .participation, .design-selection {
@@ -154,26 +156,34 @@ footer{
   // object-fit: fill;
   @include border(2px,solid);
   background-color: $sageGreen;
-  padding-top:44%;
-  padding-bottom:-10%;
+  padding-top:1.5%;
+  padding-bottom:0;
   font-size: 14px;
   text-align: center;
   display:block;
   background-image: url("../svgs/LilPaw.svg");
   background-repeat: no-repeat;
   // width:100%;
-  height:160px;
+  height:180px;
+  background-position: top;
   // height:340px;
   margin:0 auto;
   margin-top:10px;
-  background-size: 400px 450px;
-  li{
+  background-attachment:fixed;
+  background-position: left left;
+  background-size: cover;
+  display: flex;
   flex-direction: column;
-  };
   a{
-    margin-left: 20px;
-    display:block;
+    text-decoration: none;
+    font-size: 16px;
+    width:20%;
+    margin:0 auto;
     color:$sageGreen;
+    background-color: $bodyAltCol;
+    margin-bottom: 5px;
+    padding:5px;
+    border-radius: 15px;
   };
   a:hover{
     color:$bodyAltCol;
@@ -183,52 +193,80 @@ footer{
 @media only screen and (min-width:950px){ 
   body{
     background-color: $sageGreen;
+    width:100%;
   }
   .page-wrapper{
-    max-width: 80%;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    width: 100%;
     margin:0 auto;
   }
-  .doghouse{
-    width:50%;
-    margin:0 auto;
-    img{
-      margin-left: 33%;
-    }
-  }
+  aside{
+    grid-column:2;
+    width: 100%;
+    grid-row: 1;
+  };
   .intro{
+    // grid-column: 2;
+    grid-column:1/2;
+    width:100%;
+    h1{
+      animation:slide 2s ease-in 2s 1;
+    };
+    h2{
+      animation:slide 3s ease-in 2s 1;
+     };
+    .summary{
+      background-image: url(/images/blue-doghouse.png);
+      background-repeat: no-repeat;
+      background-attachment:scroll;
+      background-position: center;
+      background-size: cover;
+      margin-right: 0;
+      margin-left:0;
+      color:$bodyColor;
+      text-shadow: #473328 -1px -1px ;
+      height:355px;
+      a{
+        color:#473328;
+        text-shadow: $bodyColor -1px -1px 0;
+        background-color: $bodyColor;
+        padding: 5px;
+        border-radius: 15px;
+      }
+    };
     header{
+      grid-column:span 2;
+      width:95%;
       display:block;
     };
     div {
-      display: inline-block;
-      background-image: url(shorturl.at/bcHJY);
+      display: block;
+      width:auto;
     };
-    div:nth-child(n+1){
-      padding:25px;
-      margin:15 auto;
-      // margin-left:2.5%;
-      height:400px;
-      width:42.5%;
-      display:inline-block;
-      overflow: hidden;
-    };
-    .preamble{
-      margin-left:45px;
+    // div:nth-child(n+1){
+    //   width:40%;
+    //   overflow: hidden;
+    //   margin-left:5%;
+    //   height:400px;
+    // };
+    #zen-preamble{
+      margin-left:2.5%;
       border-color: $sageGreen;
-    }
+    };
     p{
       height:80px;
-    }
+    };
   }
     #zen-supporting{
-      display:flex;
-      flex-direction: row;
-      flex-wrap: wrap;
-      width:95%;
+      grid-column:1/3;
+      width:100%;
+      display:grid;
+      grid-template-columns: 1fr 1fr;
       div{
-        width:40%;
+        width:80%;
         overflow: hidden;
-        margin-left:3%;
+        margin-left:2.5%;
         height:400px;
       };
       p{
@@ -236,24 +274,54 @@ footer{
         margin-top:20px;
       };
       .explanation{
-        margin-left:2.5%;
+        background-image: url(/images/IMG_20220404_211708861_processed.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+        width:88%;
+        grid-column: 1/3;
+        text-shadow: $bodyColor 1px 1px 0;
+        font-size:20px;
+        :nth-child(3){
+          color:$whiteText;
+          text-shadow: #473328 2px 2px 0;
+        }
+      }
+      .participation{
+        grid-column:1;
+        margin-left:5%;
+        overflow: hidden;
+      }
+      .requirements{
+        grid-column: 1/3;
+        width:88%;
+        background-image: url(/images/IMG_20220118_181938.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+        color:$bodyColor;
+        text-shadow: #473328 1px 1px 0;
       }
       footer{
-        padding-top:5%;
+        grid-column: 1/3;
+        padding-top:3%;
         display:flex;
         flex-direction: row;
         background-image: url("../svgs/paw-prints2\ \(1\).svg");
-        width:60%;
+        width:88%;
+        margin-left:3.5%;
         height:120px;
-        background-size: 100px 100px;
-
+        background-size: 120px 45px;
+        background-repeat: repeat;
         padding-bottom:5px;
-        background-color: $bodyFont;
+        background-color: $bodyColor;
+        li{
+          width:60%;
+        }
         a{
           font-size: 18px;
           text-decoration: none;
           margin-left:2px;
-          padding:12px 40px;
+          // padding:12px 40px;
+          padding:15px;
           display:inline-block;
           text-align: center;
           height: 30px;
