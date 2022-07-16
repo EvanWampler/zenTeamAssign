@@ -18,6 +18,9 @@
   font-family: "Lora", serif;
   text-align: center;
 }
+.page-wrapper a {
+  text-decoration: none;
+}
 
 body {
   display: flex;

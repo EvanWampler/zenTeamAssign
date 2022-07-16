@@ -53,6 +53,9 @@
     font-family: $headerFont;
     text-align: center;
   };
+  a{
+    text-decoration: none;
+  };
 }
 body{
   @include set-flex($direction:column, $wrap:wrap);
