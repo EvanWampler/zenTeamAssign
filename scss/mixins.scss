@@ -244,18 +244,14 @@ footer{
       display: block;
       width:auto;
     };
-    // div:nth-child(n+1){
-    //   width:40%;
-    //   overflow: hidden;
-    //   margin-left:5%;
-    //   height:400px;
-    // };
+
     #zen-preamble{
-      margin-left:2.5%;
       border-color: $sageGreen;
+      padding-right: 5%;
+      margin-right: 3%;
     };
     p{
-      height:80px;
+      height:60px;
     };
   }
     #zen-supporting{

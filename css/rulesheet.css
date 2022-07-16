@@ -244,11 +244,12 @@ footer a:hover {
     width: auto;
   }
   .intro #zen-preamble {
-    margin-left: 2.5%;
     border-color: #c3e0A8;
+    padding-right: 5%;
+    margin-right: 3%;
   }
   .intro p {
-    height: 80px;
+    height: 60px;
   }
 
   #zen-supporting {
