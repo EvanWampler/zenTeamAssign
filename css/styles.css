@@ -60,12 +60,14 @@ header {
   background-color: #c3e0A8;
   padding: 20px;
 }
-
+h3{
+  text-transform: uppercase;
+  color: #473328;
+}
 .participation {
   font-weight: 300;
   letter-spacing: 2px;
-  text-transform: uppercase;
-  color: #473328;
+  overflow: hidden;
 }
 
 .participation, .design-selection {
